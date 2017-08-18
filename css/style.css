@@ -9,6 +9,10 @@ html {
   box-sizing: inherit;
 }
 
+nav {
+  display: block;
+}
+
 .nav-header {
   background: white;
   height: 5.71429em;
@@ -52,4 +56,105 @@ html {
   font-family: verdana, sans-serif;
   font-size: 12px;
   text-decoration: none;
+}
+
+.subtitle-container {
+  background: #007ac2;
+  height: 85px;
+  width: 100%;
+  margin-top: -29px;
+  position: absolute;
+  z-index: -1;
+}
+
+.subtitle {
+  width: 1000px;
+  height: 90px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: white;
+  /*font-family: verdana, sans-serif;*/
+  font-size: 18px;
+  margin-top: 40px;
+  font-weight: 300;
+}
+
+.body-content {
+  display: block;
+  height: 600px;
+  margin-top: 56px; // pushed this down because the block above is not recognised due to the z-index
+}
+
+.carousel {
+  width: 1000px;
+  background-color: lightgrey;
+  margin: 10px auto;
+  height: 400px;
+}
+
+.icon-block {
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons {
+  background: #007ac2;
+  color: white;
+  width: 300px;
+  height: 200px;
+  line-height: 200px;
+}
+
+footer {
+  height: 250px;
+  background: #007ac2;
+  margin-top: 40px;
+}
+
+.footer-link-container {
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-link {
+  /*background: lightgrey;*/
+  color: white;
+  font-size: 30px;
+  width: 300px;
+  height: 200px;
+  line-height: 50px;
+  text-align: left;
+  margin-top: 20px
+}
+
+.footer-link p {
+  font-size: 12px;
+  line-height: 1;
+  text-align: justify;
+}
+
+.bottom-footer-container {
+  border-top: white solid 1px;
+  background: #007ac2;
+}
+
+.accenture {
+  width: 1000px;
+  margin: 0 auto;
+  color: white;
+  font-size: 12px;
+  text-align: left;
+  padding: 20px 0;
+}
+
+.accenture a {
+  color: white;
 }
