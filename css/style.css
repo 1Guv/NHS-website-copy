@@ -1,0 +1,55 @@
+/*Deep NHS Blue #1362b0*/
+/*NHS Blue #007ac2*/
+
+html {
+  box-sizing: border-box;
+  font-family: verdana, sans-serif;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.nav-header {
+  background: white;
+  height: 5.71429em;
+  margin-bottom: 1.92857em;
+}
+
+.nav-container {
+  background: white;
+  width: 970px;
+  height: 60px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.nhs-logo {
+  display: inline-block;
+}
+
+.user-account {
+  display: inline-block;
+  float: right;
+  line-height: 30px;
+}
+
+.user-account a {
+  font-size: 14px;
+}
+
+.top-nav-links {
+  background-color: #1362b0;
+  height: 50px;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: -40px;
+}
+
+.top-nav-links a {
+  color: white;
+  line-height: 50px;
+  padding: 15px;
+  font-family: verdana, sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+}
